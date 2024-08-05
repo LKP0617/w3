@@ -1,0 +1,182 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "Roboto", "Noto Sans TC", sans-serif, Black Italic;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* ---------------------------------------------------------- */
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+@media (max-width :768px) {
+    .container_md {
+        max-width: 720px;
+    }
+}
+
+@media (max-width : 576px) {
+    .container_sm {
+        max-width: 372px;
+    }
+}
+
+/* display: flex; */
+.d_flex {
+    display: flex;
+}
+
+.d_flex_c {
+    flex-direction: column;
+}
+
+.jc_between {
+    justify-content: space-between;
+}
+
+.jc_center {
+    justify-content: center;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.fw_wrap {
+    flex-wrap: wrap;
+}
+
+.ta_center {
+    text-align: center;
+}
+
+@media (max-width : 576px) {
+    .fd_column_sm {
+        flex-direction: column;
+    }
+}
+
+/* gap */
+.gap_1 {
+    gap: 24px;
+}
+
+.gap_2 {
+    gap: 32px;
+}
+
+.gap_3 {
+    gap: 48px;
+}
+
+.gap_4 {
+    gap: 64px;
+}
+
+@media (max-width :768px) {
+    .gap_1_md {
+        gap: 24px;
+    }
+
+    .gap_5_md {
+        gap: 16px;
+    }
+}
+
+@media (max-width : 576px) {
+    .gap_1_sm {
+        gap: 24px;
+    }
+
+    .gap_5_sm {
+        gap: 16px;
+    }
+
+    .gap_6_sm {
+        gap: 8px;
+    }
+}
+
+/* padding */
+.p_top_1 {
+    padding-top: 16px;
+}
+
+.p_bottom_1 {
+    padding-bottom: 8px;
+}
+
+.p_bottom_2 {
+    padding-bottom: 4px;
+}
+
+.p_TopBtm {
+    padding: 80px 0;
+}
+
+@media (max-width : 576px) {
+    .p_TopBtm {
+        padding: 40px 0;
+    }
+}
+
+/* font-size */
+.fs_1 {
+    font-size: 36px;
+    color: #650300;
+}
+
+.fs_2 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #650300;
+}
+
+.fs_3 {
+    font-size: 48px;
+    color: #650300;
+    font-weight: bold;
+}
+
+@media (max-width : 576px) {
+    .fs_sm_3 {
+        font-size: 24px;
+    }
+}
+
+.fs_4 {
+    font-size: 48px;
+    color: #AA0601;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+}
+
+.fs_5 {
+    font-size: 36px;
+}
+
+.fs_6 {
+    font-size: 20px;
+    line-height: 1.5;
+}
